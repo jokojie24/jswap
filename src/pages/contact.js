@@ -97,11 +97,7 @@ import Navbar from '../components/nav';
                         <FormControl id="name">
                           <FormLabel>Mail</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
-                            <InputLeftElement
-                              pointerEvents="none"
-                              children={<MdOutlineEmail color="gray.800" />}
-                            />
-                            <Input type="text" size="md" />
+                            
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
