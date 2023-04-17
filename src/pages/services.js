@@ -84,7 +84,7 @@ const Services = () => {
               )
           },
          {
-          heading: 'Quality effective suport 24/7',
+          heading: 'Quality suport 24/7',
           content: 'We are here to help you with any questions you may have.',
           icon: (
             <svg
@@ -133,7 +133,7 @@ const Services = () => {
         {features.map((feature, index) => (
           <Box
             key={index}
-            bg={useColorModeValue('gray.100', 'gray.700')}
+            bg="gray.100"
             p={6}
             rounded="lg"
             textAlign="center"
