@@ -58,7 +58,7 @@ const router = useRouter()
               <FormLabel>Country </FormLabel>
               <Select type="country" value={country} onChange={e => setCountry(e.target.value)} >
                 <option value="ng">Nigeria</option>
-                <option value="us">United State</option>
+                <option value="us">United States of America</option>
                 <option value="uk">United Kingdom</option>
               </Select>
             </FormControl>

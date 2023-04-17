@@ -25,7 +25,6 @@ import { useRouter } from 'next/router';
 
 const navLinks = [
   { name: 'Services', path: '/services' },
-  { name: 'Exchange', path: '#' },
   { name: 'Contact', path: '/contact' }
 ];
 const button = [
@@ -44,7 +43,7 @@ export default function Navbar() {
   return (
     <Box px={4} bg={useColorModeValue('white', 'gray.800')}>
       <Flex h={16} alignItems="center" justifyContent="space-between" mx="auto">
-      <Link href="/services">
+      <Link href="/">
       <Flex alignItems="center" >
        <Icon as={RiFlashlightFill} h={8} w={8} mr="2"  />
        JSWAP

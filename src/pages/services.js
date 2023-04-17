@@ -23,6 +23,7 @@ import {
   FormLabel,
   Select,
   Center,
+  ButtonGroup,
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 
@@ -105,6 +106,11 @@ const Services = () => {
           ),
           onClick: () => router.push('/contact')
         },
+        {
+          heading: 'HOME',
+          content: '',
+          onClick: () => router.push('/')
+        },
       ],[]);
 
 
@@ -128,7 +134,6 @@ const Services = () => {
       <chakra.h3 fontSize="4xl" fontWeight="bold" mb={20} textAlign="center">
         Our Services
       </chakra.h3>
-      <Link href="/" color={'blue.500'}>HOME</Link>
       <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} placeItems="center" spacing={10} mb={4}>
         {features.map((feature, index) => (
           <Box
@@ -238,4 +243,9 @@ const Services = () => {
   );
 };
 
+<button>
+<Button colorScheme='teal' size='lg'>
+    Button
+  </Button>
+</button>
 export default Services;
