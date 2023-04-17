@@ -90,10 +90,7 @@ import Navbar from '../components/nav';
                         <FormControl id="name">
                           <FormLabel>Your Name</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
-                            <InputLeftElement
-                              pointerEvents="none"
-                              children={<BsPerson color="gray.800" />}
-                            />
+                            
                             <Input type="text" size="md" />
                           </InputGroup>
                         </FormControl>
