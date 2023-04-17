@@ -167,7 +167,7 @@ const Services = () => {
               {feature.content}
             </Text>
             <Link href="#" mt={4} fontSize="sm" color="blue.400">
-              Learn more →
+              
             </Link>
           </Box>
         ))}
