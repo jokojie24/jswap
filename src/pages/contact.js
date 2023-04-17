@@ -98,6 +98,7 @@ import Navbar from '../components/nav';
                           <FormLabel>Mail</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
                             
+                            <Input type="text" size="md" />
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
