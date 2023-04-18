@@ -35,22 +35,10 @@ import {
     );
   };
   
-  export default function HomeBanner() {
+  export default function HomeMid() {
     return (
       <Container maxW={'5xl'} py={12}>
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack spacing={4}>
-            <Text
-              textTransform={'uppercase'}
-              color={'blue.400'}
-              fontWeight={600}
-              fontSize={'sm'}
-              bg={useColorModeValue('blue.50', 'blue.900')}
-              p={2}
-              alignSelf={'flex-start'}
-              rounded={'md'}>
-              Our Story
-            </Text>
             <Heading>Automated Escrow System for Foreign Exchange</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
             JSWAP is a platform that facilitates secure and efficient transactions between buyers and sellers in the foreign exchange market. The platform allows users to exchange currency in a secure and transparent manner, by utilizing an escrow system. The platform eliminates the need for intermediaries, thereby reducing the cost of transactions and increasing the speed of transactions.
@@ -64,7 +52,6 @@ import {
               }>
              </Stack>
           </Stack>
-        </SimpleGrid>
       </Container>
     );
   }
