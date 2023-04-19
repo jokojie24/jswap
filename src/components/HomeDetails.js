@@ -27,19 +27,19 @@ import {
 
     {
       id: 2,
-      title: 'Fast:',
+      title: 'Swift:',
       text: 'Transactions are processed in real-time, allowing users to complete transactions quickly.',
     },
 
     {
       id: 3,
       title: 'User-friendly:',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      text: 'The platform is easy to use, with a simple and intuitive user interface.',
     },
 
    {
       id: 4,
-      title: 'Transparent:',
+      title: 'Transparency:',
       text: 'All transactions are recorded on a public ledger, providing a transparent and auditable trail.',
     },
   ];

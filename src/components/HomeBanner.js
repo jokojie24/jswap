@@ -53,7 +53,7 @@ import {
             </Text>
             <Heading>Automated Escrow System for Foreign Exchange</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-            JSWAP is a platform that facilitates secure and efficient transactions between buyers and sellers in the foreign exchange market. The platform allows users to exchange currency in a secure and transparent manner, by utilizing an escrow system. The platform eliminates the need for intermediaries, thereby reducing the cost of transactions and increasing the speed of transactions.
+            Okojie FX is a platform that facilitates secure and efficient transactions between buyers and sellers in the foreign exchange market. The platform allows users to exchange currency in a secure and transparent manner, by utilizing an escrow system. The platform eliminates the need for intermediaries, thereby reducing the cost of transactions and increasing the speed of transactions.
             </Text>
             <Stack
               spacing={4}

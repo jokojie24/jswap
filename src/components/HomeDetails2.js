@@ -21,20 +21,14 @@ import {
 
      {
       id: 1,
-      title: 'Increases the speed of transactions:',
+      title: 'Transaction processing time:',
       text: 'Transactions are processed in real-time, allowing users to complete transactions quickly.',
     },
 
     {
       id: 2,
-      title: 'Reduces the cost of transactions:',
+      title: 'Cost minimization:',
       text: 'The platform eliminates the need for intermediaries, reducing the cost of transactions.',
-    },
-
-    {
-      id: 3,
-      title: 'Improves the efficiency of transactions:',
-      text: 'The platform automates the escrow process, reducing the time and effort required to complete transactions.',
     },
   ];
 

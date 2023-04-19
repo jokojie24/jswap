@@ -65,7 +65,7 @@ import {
             spacing={4}
             justify={{ base: 'center', md: 'space-between' }}
             align={{ base: 'center', md: 'center' }}>
-            <Text>JSWAP</Text>
+            <Text>O.FX</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'https://twitter.com/The_prof1'}>
                 <FaTwitter />

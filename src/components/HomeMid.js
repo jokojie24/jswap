@@ -41,7 +41,7 @@ import {
           <Stack spacing={4}>
             <Heading>System Architecture</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-            The Automated Escrow System for Foreign Exchange is built on a decentralized architecture, utilizing blockchain technology. The platform leverages smart contracts to automate the escrow process and ensure the security of transactions. The platform also employs cryptographic algorithms to secure sensitive user information, such as private keys and passwords.
+            Okojie FX is built on a decentralized architecture, utilizing blockchain technology. The platform leverages smart contracts to automate the escrow process and ensure the security of transactions. The platform also employs cryptographic algorithms to secure sensitive user information, such as private keys and passwords.
             </Text>
             <Stack
               spacing={4}
