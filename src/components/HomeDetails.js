@@ -15,7 +15,7 @@ import {
   const features = [ 
     {
       id: 0,
-      title: 'easy to use',
+      title: 'easy t',
       text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
     },
 
