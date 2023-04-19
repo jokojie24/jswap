@@ -15,7 +15,7 @@ import {
   const features = [ 
     {
       id: 0,
-      title: 'Reduces the risk of fraud and scams: ',
+      title: 'Risk management: ',
       text: 'The escrow system and blockchain technology ensure that transactions are secure and transparent, reducing the risk of fraud and scams.',
     },
 

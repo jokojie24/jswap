@@ -20,7 +20,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { BiChevronDown } from 'react-icons/bi';
 import { RiFlashlightFill } from 'react-icons/ri';
-import { MdOutlineSwapCalls } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 
 
@@ -46,7 +45,7 @@ export default function Navbar() {
       <Flex h={16} alignItems="center" justifyContent="space-between" mx="auto">
       <Link href="/">
       <Flex alignItems="center" >
-       <Icon as={MdOutlineSwapCalls} h={8} w={8} mr="2"  />
+       <Icon as={RiFlashlightFill} h={8} w={8} mr="2"  />
        O.FX
        </Flex></Link>
 
