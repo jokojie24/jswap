@@ -12,8 +12,39 @@ import {
   import { CheckIcon } from '@chakra-ui/icons';
   import {ChevronRightIcon} from '@chakra-ui/icons';
   
-  // Replace test data with your own
   const features = [ 
+    {
+      id: 0,
+      title: 'easy to use',
+      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+    },
+
+     {
+      id: 1,
+      title: 'free of charge',
+      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+    },
+
+    {
+      id: 2,
+      title: 'Lorem ipsum dolor sit amet',
+      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+    },
+
+    {
+      id: 3,
+      title: 'Lorem ipsum dolor sit amet',
+      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+    },
+
+   {
+      id: 4,
+      title: 'Lorem ipsum dolor sit amet',
+      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+    },
+  ];
+
+  const benefits = [ 
     {
       id: 0,
       title: 'easy to use',
