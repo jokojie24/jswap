@@ -65,7 +65,7 @@ import {
             spacing={4}
             justify={{ base: 'center', md: 'space-between' }}
             align={{ base: 'center', md: 'center' }}>
-            <Text>O.FX</Text>
+            <Text>O.FX (c) 2022      Jerry Okojie</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'https://twitter.com/The_prof1'}>
                 <FaTwitter />
