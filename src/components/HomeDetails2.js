@@ -15,38 +15,38 @@ import {
   const features = [ 
     {
       id: 0,
-      title: 'Secure transactions:',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Reduces the risk of fraud and scams: ',
+      text: 'The escrow system and blockchain technology ensure that transactions are secure and transparent, reducing the risk of fraud and scams.',
     },
 
      {
       id: 1,
-      title: 'free of charge',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Increases the speed of transactions:',
+      text: 'Transactions are processed in real-time, allowing users to complete transactions quickly.',
     },
 
     {
       id: 2,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Reduces the cost of transactions:',
+      text: 'The platform eliminates the need for intermediaries, reducing the cost of transactions.',
     },
 
     {
       id: 3,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-
-   {
-      id: 4,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Improves the efficiency of transactions:',
+      text: 'The platform automates the escrow process, reducing the time and effort required to complete transactions.',
     },
   ];
 
   
   export default function HomeDetails() {
     return (
+        <Box p={4}>
+        <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
+          <Text color={'gray.600'} fontSize={'x2'}>
+           BENEFITS
+          </Text>
+        </Stack>
         <Container maxW={'6xl'} mt={10}>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={10}>
             {features.map((feature) => (
@@ -62,5 +62,6 @@ import {
             ))}
           </SimpleGrid>
         </Container>
+        </Box>
     );
   }

@@ -16,63 +16,31 @@ import {
     {
       id: 0,
       title: 'Secure transactions:',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      text: 'The platform utilizes an escrow system and smart contracts to ensure the security of transactions.',
     },
 
      {
       id: 1,
-      title: 'free of charge',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Cost-effective:',
+      text: 'The platform eliminates the need for intermediaries, reducing the cost of transactions.',
     },
 
     {
       id: 2,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Fast:',
+      text: 'Transactions are processed in real-time, allowing users to complete transactions quickly.',
     },
 
     {
       id: 3,
-      title: 'Lorem ipsum dolor sit amet',
+      title: 'User-friendly:',
       text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
     },
 
    {
       id: 4,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-  ];
-
-  const benefits = [ 
-    {
-      id: 0,
-      title: 'easy to use',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-
-     {
-      id: 1,
-      title: 'free of charge',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-
-    {
-      id: 2,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-
-    {
-      id: 3,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-    },
-
-   {
-      id: 4,
-      title: 'Lorem ipsum dolor sit amet',
-      text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+      title: 'Transparent:',
+      text: 'All transactions are recorded on a public ledger, providing a transparent and auditable trail.',
     },
   ];
   
@@ -80,9 +48,9 @@ import {
     return (
       <Box p={4}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-          <Heading fontSize={'3xl'}>How it works.</Heading>
-          <Text color={'gray.600'} fontSize={'xl'}>
-            Follow the guidlines listed below for effective use of our services.
+          <Heading fontSize={'3xl'}>Features and Benefits.</Heading>
+          <Text color={'gray.600'} fontSize={'x2'}>
+           FEATURES
           </Text>
         </Stack>
   
