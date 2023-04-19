@@ -39,9 +39,9 @@ import {
     return (
       <Container maxW={'5xl'} py={12}>
           <Stack spacing={4}>
-            <Heading>Automated Escrow System for Foreign Exchange</Heading>
+            <Heading>System Architecture</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-            JSWAP is a platform that facilitates secure and efficient transactions between buyers and sellers in the foreign exchange market. The platform allows users to exchange currency in a secure and transparent manner, by utilizing an escrow system. The platform eliminates the need for intermediaries, thereby reducing the cost of transactions and increasing the speed of transactions.
+            The Automated Escrow System for Foreign Exchange is built on a decentralized architecture, utilizing blockchain technology. The platform leverages smart contracts to automate the escrow process and ensure the security of transactions. The platform also employs cryptographic algorithms to secure sensitive user information, such as private keys and passwords.
             </Text>
             <Stack
               spacing={4}
